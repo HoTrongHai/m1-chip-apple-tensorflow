@@ -74,6 +74,8 @@ $ pip install --upgrade pip
 - To run/open Jupyter Notebook by command `jupyter notebook`
 - To fix cannot connect debug jupyter by: make sure `ipykernel` is version `6.2.0`:
 If current version is not `6.2.0`, need to uninstall and install with specified version (`6.2.0`)
+  
+Due to Jupyter debug, then the version of `ipykernel` can be `5.5.4`
 ```shell
 pip uninstall ipykernel
 pip install ipykernel==6.2.0
